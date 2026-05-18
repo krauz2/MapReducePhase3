@@ -21,24 +21,24 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\file_manager.h">
+    <ClInclude Include="..\headers\reducer_dll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\reducer_dll.h">
+    <ClInclude Include="..\headers\reducer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\reducer.h">
+    <ClInclude Include="..\headers\file_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\transfer files from github\reducer.cpp">
+    <ClCompile Include="..\src\file_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\reducer_dll.cpp">
+    <ClCompile Include="..\src\reducer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\file_manager.cpp">
+    <ClCompile Include="..\src\reducer_dll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
