@@ -16,8 +16,8 @@ struct Phase3Config {
     std::string partition_prefix = "mapper_";
     std::string partition_middle = "_reduce_";
     std::string partition_extension = ".txt";
-    std::string mapper_worker_default_name = "mapper_worker.exe";
-    std::string reducer_worker_default_name = "reducer_worker.exe";
+    std::string mapper_worker_default_name = "bin/mapper_worker.exe";
+    std::string reducer_worker_default_name = "bin/reducer_worker.exe";
     int default_reducer_count = 2;
 
     std::filesystem::path logs_directory(const std::filesystem::path& output_directory) const {
