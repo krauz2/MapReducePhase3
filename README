@@ -5,9 +5,10 @@ To run on Windows:
 2. Clone a repository. Fill in Repository Location and Path.
 3. Click "Clone".
 
-Chances are, you need to modify settings to get the program to work. First do step 1. 
-Then, try to build and run the solution (At the top menu, click Build -> Clean Solution -> Rebuild Solution. If no errors, click Local Windows Debugger).
-If there are errors, check your settings by doing steps 2 through 6 for each indicated project (bulleted under each step).
+Chances are, you may need to modify settings to get the program to work. FIRST, do step 1. 
+Then, try to build and run the solution (At the top menu, click Build -> Clean Solution. Then click Build -> Rebuild Solution. If no errors, click Local Windows Debugger).
+If there are errors, check/modify your settings by doing steps 2 through 6 for each indicated project (bulleted under each step).
+Once you do those steps, build and run the solution: Build -> Clean Solution. Then click Build -> Rebuild Solution. Last, click Local Windows Debugger.
 
 1. Right click solution -> Properties -> Common Properties -> Configure Startup Projects -> Single startup project = phase3_controller
 
