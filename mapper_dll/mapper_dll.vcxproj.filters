@@ -15,33 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
+    <ClInclude Include="..\headers\file_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h">
+    <ClInclude Include="..\headers\mapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\phase3_config.h">
+    <ClInclude Include="..\headers\mapper_dll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\mapper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\file_manager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\mapper_dll.h">
+    <ClInclude Include="..\headers\phase3_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\transfer files from github\mapper_dll.cpp">
+    <ClCompile Include="..\src\file_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\mapper.cpp">
+    <ClCompile Include="..\src\mapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\file_manager.cpp">
+    <ClCompile Include="..\src\mapper_dll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

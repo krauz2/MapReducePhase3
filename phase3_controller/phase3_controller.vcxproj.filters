@@ -15,36 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\transfer files from github\main.cpp">
+    <ClCompile Include="..\src\controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\executive.cpp">
+    <ClCompile Include="..\src\executive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\file_manager.cpp">
+    <ClCompile Include="..\src\file_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\logger.cpp">
+    <ClCompile Include="..\src\logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\transfer files from github\controller.cpp">
+    <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\transfer files from github\controller.h">
+    <ClInclude Include="..\headers\controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\file_manager.h">
+    <ClInclude Include="..\headers\executive.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\executive.h">
+    <ClInclude Include="..\headers\file_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\logger.h">
+    <ClInclude Include="..\headers\logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\transfer files from github\phase3_config.h">
+    <ClInclude Include="..\headers\phase3_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
